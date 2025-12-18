@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://test-jwt-roan.vercel.app",
+    origin: "https://test-jwt-fail.vercel.app",
     credentials: true,
   })
 );
